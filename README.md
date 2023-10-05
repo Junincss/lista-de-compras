@@ -12,7 +12,7 @@
 
 # _Acessando arquivos_
 
-[![arquivo1](https://img.shields.io/badge/HTML-FF4500?style=for-the-badge&logo=)](https://github.com/Junincss/lista-de-compras/blob/main/index.html)[![JavaScript](https://img.shields.io/badge/Arquivo_Js-FFFF00?style=for-the-badge&logo=)](https://github.com/Junincss/lista-de-compras/blob/main/index.js)[![JavaScript](https://img.shields.io/badge/ArquivoCss-4682B4?style=for-the-badge&logo=)](https://github.com/Junincss/lista-de-compras/blob/main/index.js)
+[![arquivo1](https://img.shields.io/badge/HTML-FF4500?style=for-the-badge&logo=)](https://github.com/Junincss/lista-de-compras/blob/main/index.html)  [![JavaScript](https://img.shields.io/badge/Arquivo_Js-FFFF00?style=for-the-badge&logo=)](https://github.com/Junincss/lista-de-compras/blob/main/index.js)  [![JavaScript](https://img.shields.io/badge/ArquivoCss-4682B4?style=for-the-badge&logo=)](https://github.com/Junincss/lista-de-compras/blob/main/index.js)
 
 # _Tecnologias utilizadas_
 
