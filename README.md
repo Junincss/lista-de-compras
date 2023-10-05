@@ -6,7 +6,7 @@
 
 ---
 
-#_Atualizações ( commits)_
+# _Atualizações ( commits)_
 
 - 05-10-2023: 1º commit : onde foi feita o upload dos arquivos, a web page ainda está básica, aos próximos commit's estarei dando vida a página, adicionando interatividade.
 
