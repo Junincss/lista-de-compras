@@ -2,7 +2,7 @@
 
 # Entendendo a finalidade do projeto!
 
-- Os arquivos em anexo juntos montam aplicação com a finalidade de criar uma lista de compras dinâmica para auxiliar o usuário a montar sua lista de compras para usar no supermercado :credit_card: :dollar:
+- Os arquivos em anexo, juntos montam aplicação com a finalidade de criar uma lista de compras dinâmica para auxiliar o usuário a montar sua lista de compras para usar no supermercado :credit_card: :dollar:
 
 ---
 
