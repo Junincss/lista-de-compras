@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarketList</title>
+    <link
+      type="image/png"
+      sizes="96x96"
+      rel="icon"
+      href="./src/icons8-carrinho-de-compras-96.png"
+    />
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Crie sua lista de compras de forma prática e rápida.</h1>
+    </header>
+    <div id="addItems">
+      <h3>Adicionar itens a minha lista de compras</h3>
+      <label for="item">Produto:</label>
+      <input
+        type="text"
+        id="item"
+        placeholder="Informe o produto"
+        name="product"
+      /><br />
+      <label for="description">Descrição:</label>
+      <input
+        type="text"
+        id="description"
+        placeholder="Descrição / tipo do produto"
+        name="descriptionItem"
+      /><br />
+      <label for="">Marca:</label>
+      <input
+        type="text"
+        id="brandItem"
+        placeholder="Informe a marca do produto"
+        name="brand"
+      /><br />
+      <label for="amount">Quantidade:</label>
+      <input type="text" id="amount" placeholder="4" name="amount" /><br />
+      <label for="unity-of-measurement">Unidade de Medida:</label>
+      <select name="unity-of-measurementproduct" id="unity-of-measurement">
+        <option value="None" >
+          Selecione a Unidade de medida
+        </option>
+        <option value="Quilogramas">Kg</option>
+        <option value="Unidade(s)">Un</option>
+        <option value="Pacote(s)">Pct</option>
+        <option value="Caixa(s)">Cx</option>
+        <option value="Fardo(s)">Fd</option>
+      </select>
+      <br />
+      <button id="addItemtoListButton" onclick="addItem()" type="button">
+        Adicionar item a lista
+      </button>
+    </div>
+    <div id="removeTheItems">
+      <h3>Remover itens da lista de compras</h3>
+      <label for="remove-item">Produto:</label>
+      <input
+        type="text"
+        id="remove-item"
+        placeholder="Informe o produto"
+        name="remove-product"
+      /><br />
+      <label for="brand-remove">Marca:</label>
+      <input
+        type="text"
+        id="brand-remove"
+        placeholder="Insira a marca na lista"
+        name="brand-remove"
+      /><br />
+      <br />
+      <button id="removeItemTheListButton" onclick="removeItem()" type="button">
+        Remover item
+      </button>
+    </div>
+    <div class="checkbox">
+      <form id="market-list">
+        <p>
+          <img src="src/icons8-carrinho-de-compras-96.png" alt="carrinho" />
+          Minha lista de compras
+          <img src="src/icons8-carrinho-de-compras-96.png" alt="carrinho" />
+          <hr>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
